@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body{
+    background: #0d3a48;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding:1.5rem 1.2%;
+}
+
+header nav a{
+    margin:0 1rem;
+    font-size: 1.1rem;
+    color: #d4dadf;
+}
+
+header nav .btn{
+    padding: 12px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    background: #4285f4;
+}
+
+.main{
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.main .main-img{
+    width: 30%;
+}
+
+.main .main-img img{
+    width: 100%;
+}
+
+.main .main-input{
+    margin-top: .8rem;
+}
+
+.main .main-input input{
+    width: 400px;
+    padding: 13px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: #fff;
+    border: 0;
+}
+
+.main-button{
+    margin-top: .9rem;
+}
+
+.main-button .btn-main{
+    padding: 12px 15px;
+    border-radius: 5px;
+    background: #ccc;
+    border: 0;
+    color: #111;
+    margin-right: .8rem;
+}
+
+footer{
+    background: #d4dadf;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section .left a, .footer-section .right a{
+    margin-left: .8rem;
+    color: #111;
+}
